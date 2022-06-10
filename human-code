@@ -1,0 +1,48 @@
+Esercizio 5 ==== Team 5
+
+Il regalo perfetto
+Domani è il compleanno di Silvia e non le ho ancora comprato nulla! Mi piacerebbe sorprenderla, so che le piaceva tanto quella lampada da tavolo così particolare, però la consegna non è Prime e non arriverebbe mai in tempo! Potrei optare per una bella stilografica ma sicuramente sforo il budget, forse è meglio optare per un buon libro: un classico ma so che con lei vado sul sicuro!
+
+
+- ? Domani è il compleanno di Silvia?
+  - No
+    - torniamo a dormire
+  - Sì
+    - ? Abbiamo comprato un regalo?
+        - Sì
+            - Torniamo a dormire
+        - No  
+            - ? Abbiamo i soldi?
+                - Sì (ma pochi)
+                    - Pensiamo ai regali da fare a Silvia
+                    - Stabiliamo dei criteri per la selezione (Sorprenderla - Prime per consegna rapida - Budget)
+                    - ? Silvia ha una wishlist di Amazon?
+                        -No
+                            - Scriviamo una ListaRegali
+                            - (Lampada particolare - Penna stilografica - Classico della letteratura - Bottiglia di vino - Trucchi)
+                            - Creiamo una lista "Scartati"
+                            - Prendiamo il primo criterio "Sorprenderla" e analizziamo la lista 
+                            - Se il regalo selezionato rientra nel criterio rimane in ListaRegali, altrimenti lo aggiungiamo a ListaScartati
+                            - Manteniamo nella lista solo gli elementi con la caratteristica "Sorprenderla"
+                            - ListaRegali(Lampada particolare - Penna stilografica - Classico della letteratura) - ListaScartati (Bottiglia di vino - Trucchi)
+                            - Prendiamo il secondo criterio "Prime per consegna rapida"
+                            - Apriamo l'app di Amazon e cerchiamo ListaRegali
+                            - ListaRegali(Penna stilografica - Classico della letteratura) - ListaScartati (Lampada particolare - Bottiglia di vino - Trucchi)
+                            - Prendiamo il terzo criterio "Budget"
+                            - ListaRegali(Classico della letteratura) - ListaScartati (Penna Stilografica - Lampada particolare - Bottiglia di vino - Trucchi)
+                            - Scegliamo "Classico della letteratura"
+                            - Aggiungiamo al carrello
+                            - Acquisto con opzione regalo
+                            - Torniamo a dormire        
+                        - Sì
+                            - Scegliamo un regalo che mantenga i parametri della lista dei criteri
+                            - Torniamo a dormire    
+                - No
+                    - Controlla i libri che hai a casa
+                    - ? Hai un classico della letteratura che non usi più?
+                        - Sì
+                            - Impacchettiamo "RegaloReciclato"
+                            - Torniamo a dormire
+                        - No 
+                            - Scendiamo a caricare la carta di credito
+                            - // Return row 16 // 
